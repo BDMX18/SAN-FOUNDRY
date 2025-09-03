@@ -2,17 +2,17 @@
 
 # Approach 01:
 
-# def replace_blank(string):
-#   new_string = ''
-#   for char in string:
-#     if(char == ' '):
-#       new_string += '-'
-#     else:
-#       new_string += char
-#   return new_string
+def replace_blank(string):
+  new_string = ''
+  for char in string:
+    if(char == ' '):
+      new_string += '-'
+    else:
+      new_string += char
+  return new_string
 
-# string = input('Enter A String: ')
-# print(replace_blank(string))
+string = input('Enter A String: ')
+print(replace_blank(string))
 
 # Approach 02:
 
